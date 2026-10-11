@@ -1,0 +1,157 @@
+/*
+Marko Köyhäjoki
+*/
+#2f4858 #3f5f6a #54767b #6d8d8b #89a59b #a7bcad {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f5f3;
+  color: #263535;
+  line-height: 1.7;
+}
+
+.container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+/* Header */
+
+.head {
+  padding: 70px 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #456a6d, #6d8d8b);
+}
+
+.head h1 {
+  margin-bottom: 8px;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  letter-spacing: -1px;
+}
+
+.head p {
+  color: #dce8e5;
+  font-size: 1.05rem;
+}
+
+/* Main content */
+
+.content {
+  padding: 70px 0;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding: 45px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0 15px 40px rgba(50, 70, 70, 0.1);
+}
+
+.category {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background-color: #e2ece8;
+  color: #54767b;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.product h2 {
+  margin-bottom: 20px;
+  color: #314d4e;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+}
+
+.product p {
+  margin-bottom: 18px;
+  color: #596969;
+}
+
+/* Product image */
+
+.image-card {
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #f1f5f3;
+  text-align: center;
+}
+
+#philips_sonicare {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+#philips_sonicare:hover {
+  transform: scale(1.03);
+}
+
+/* Features */
+
+.bottom {
+  padding: 70px 0;
+  background-color: #dce7e3;
+}
+
+.bottom h3 {
+  margin-bottom: 25px;
+  color: #314d4e;
+  font-size: 2rem;
+}
+
+.bottom ul {
+  padding-left: 25px;
+  color: #465656;
+}
+
+.bottom > .container > ul > li {
+  margin-bottom: 10px;
+}
+
+.bottom ul ul {
+  margin-top: 8px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 35px 20px;
+  text-align: center;
+  background-color: #314d4e;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 8px;
+  color: #cbd8d5;
+}
+
+.footer a {
+  color: #b9d8cf;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
